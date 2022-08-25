@@ -216,11 +216,10 @@ joe.scopeArrow();
 // TODO: Write a COMMENT below to answer the following questions.
 
 // 1. What is "this" when joe.scope() is invoked?
-// "this" it refer to constructor 'Student'
+//     It refers to the cnstructor function.
 
 // 2. What is "this" when joe.scopeArrow() is invoked?
-// "this" it refer to 'window' object
+// It can't reach the constructor.
 
 // 3. Explain why "this" is different when an arrow function is used.
-// The value of 'this' is therefore the same as the 'this' of the enclosing scope (the surrounding non-arrow function). 
-// If there isn’t a non-arrow function scope surrounding, the 'this' context will be, in the browser, the global window object.
+// arrow functions use the value of this in their lexical scope.
